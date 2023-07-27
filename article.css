@@ -3,9 +3,6 @@
     font-family: NarkisBlock;
     src: url(Narkis Block MF Regular A.ttf);
 }
-  p{
-    font-family: NarkisBlock;
-}
 
 @font-face {
     font-family: 'NarkisBlock';
@@ -19,12 +16,136 @@
     font-weight: 1;
     font-style: normal;
 }
-#test{
-    background-color: rgb(255, 255, 255);
+#day{
+    font-family: NarkisBlock;
+    direction: rtl;
+    font-weight: ;
+    font-size: 18px;
+    position: relative;
+    bottom: 106.5% ;
+
+}
+#bibi{
+    position: relative;
+    height: 343.69px;
+}
+#bibih1{
+    position: relative;
+    bottom: 17.7%;
+    
+}
+#bibisize{
+    font-size: 51px;
+    word-spacing: ;
+    line-height: 85%;
+    letter-spacing: -0.35px;
+    font-weight: 2000;
+}
+#bibip{
+    position: relative;
+    bottom: 25%;
+
+}
+#pbibi{
+    font-size: 18px;
+    line-height: 133%;
+}
+#sivan{
+    position: relative;
+    bottom: 73px;
+}
+#psivan{
+    color: #78787b;
+    font-size: 15px;
+}
+#addart{
     width: 1240px;
-    height: 343px;
+    height: 517px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 21px;
+    border: 1px solid;
+}
+#bidendiv{
+    width: 610px;
+    height: 113px;
+    display: block;
+    margin-right: auto;
+    border: 1px solid;
+}
+#choendiv{
+    width: 610px;
+    height: 113px;
+    display: block;
+    margin-right: auto;
+    margin-top: 15px;
+    border: 1px solid;
+}
+#vacationdiv{
+    width: 610px;
+    height: 113px;
+    display: block;
+    margin-right: auto;
+    margin-top: 15px;
+    border: 1px solid;
+
+}
+#theworddiv{
+    width: 610px;
+    height: 113px;
+    display: block;
+    margin-right: auto;
+    margin-top: 15px;
+    border: 1px solid;
+}
+#bigadddiv{
+    width: 300px;
+    height: 517px;
+    display: block;
+    margin-left: auto;
+    margin-top: -503px;
+
+
+}
+#alm{
+    width: 300px;
+    height: 497px;
+
+}
+#yad2div{
+    width: 300px;
+    height: 245px;
+    display: block;
+    margin-left: 627px;
+    margin-top: -519px;
+
+    
+}
+#yad2{
+    width: 300px;
+    height: 244px;
+}
+#studydiv{
+    width: 300px;
+    height: 245px;
+    display: block;
+    margin-left: 627px;
+    margin-top: 10px;
+    
+    box-shadow: 0px 0.1px 0.5px;
+    
+}
+#study{
+    width: 300px;
+    height: 170px;
+}
+
+#money{
+    font-family: Arial, Helvetica, sans-serif;
+    direction: rtl;
+    position: relative;
+    font-size: 14px;
+    top: 6px;
+    right: 7px;
 }

@@ -24,7 +24,7 @@ p{
     font-weight: ;
 }
 h1{
-    font-family: NarkisB;
+    font-family: NarkisBlock;
     font-weight: ;
     
 }
@@ -64,6 +64,7 @@ body{
 }
 #reddiv{
     background-color: #de1a1a;
+    font-family: NarkisB;
     width: 1240px;
     height: 28px;
     display: block;
@@ -71,6 +72,10 @@ body{
     margin-right: auto;
     margin-top: 21px;
 
+}
+.header{
+    color: #fff;
+    padding: auto;
 }
 #runnew{
     background-color: #f3f8f9;
@@ -90,17 +95,9 @@ body{
     margin-right: auto;
     margin-top: 21px;
 }
-#bibi{
-    position: relative;
-    height: 343.69px;
 
-}
-span{
-    direction: rtl;
-    position: relative;
-    top: -300px;
 
-}
+
 h1{
     direction: rtl;
     font-weight: bold;
