@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: NarkisBlock;
+    src: url(Narkis Block MF Regular A.ttf);
+}
+  p{
+    font-family: NarkisBlock;
+}
+
+@font-face {
+    font-family: 'NarkisBlock';
+    src: url(Narkiss\ Block\ Regular.ttf);
+    font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'NarkisB';
+    src: url(FontsFree-Net-Narkiss-Block-Condensed-Bold.ttf);
+    font-weight: 1;
+    font-style: normal;
+}
+#test{
+    background-color: rgb(255, 255, 255);
+    width: 1240px;
+    height: 343px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+}

@@ -1,0 +1,121 @@
+
+  @font-face {
+    font-family: NarkisBlock;
+    src: url(Narkis Block MF Regular A.ttf);
+}
+  p{
+    font-family: NarkisBlock;
+}
+
+@font-face {
+    font-family: 'NarkisBlock';
+    src: url(Narkiss\ Block\ Regular.ttf);
+    font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'NarkisB';
+    src: url(FontsFree-Net-Narkiss-Block-Condensed-Bold.ttf);
+    font-weight: 1;
+    font-style: normal;
+}
+p{
+    font-family: NarkisBlock;
+    font-weight: ;
+}
+h1{
+    font-family: NarkisB;
+    font-weight: ;
+    
+}
+span{
+    color:#fff;
+    font-size: 15px;
+    justify-content: space-between;
+    margin-left: 30px;
+    align-items: center;
+
+}
+
+
+
+
+
+body{
+    overflow: unset;
+    height: 150vh;
+
+}
+#logoheader{
+    width: 100%;
+    height: 103px;
+    position: relative;
+    margin-top: 20px;
+}
+#logo{
+    width: 176px;
+    height: 75px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:  24px;
+
+ 
+}
+#reddiv{
+    background-color: #de1a1a;
+    width: 1240px;
+    height: 28px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+
+}
+#runnew{
+    background-color: #f3f8f9;
+    width: 1240px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+
+}
+#mainart{
+    width: 1240px;
+    height: 343px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+}
+#bibi{
+    position: relative;
+    height: 343.69px;
+
+}
+span{
+    direction: rtl;
+    position: relative;
+    top: -300px;
+
+}
+h1{
+    direction: rtl;
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    top: -300px;
+}
+p{
+    direction: rtl;
+    
+    font-size: 20px;
+    position: relative;
+    bottom: 300px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
