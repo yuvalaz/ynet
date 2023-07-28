@@ -42,8 +42,9 @@ span{
 
 
 body{
-    overflow: unset;
+    overflow-x: hidden;
     height: 150vh;
+    z-index: 20;
 
 }
 #logoheader{
@@ -52,6 +53,35 @@ body{
     position: relative;
     margin-top: 20px;
 }
+#ball{
+    position: absolute;
+    right: 132px;
+    top: 80px;
+    font-size: 13px;
+    font-family: NarkisBlock;
+}
+#ballicon{
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top: 3px;
+}
+#mail{
+    position: absolute;
+    right: 208px;
+    top: 80px;
+    font-size: 13px;
+    font-family: NarkisBlock;
+}
+#mailicon{
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top: 3px;
+}
+
+
+
 #logo{
     width: 176px;
     height: 75px;
@@ -94,16 +124,8 @@ body{
     
 
 }
-#runnew{
-    background-color: #f3f8f9;
-    width: 1240px;
-    height: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 21px;
 
-}
+
 #mainart{
     width: 1240px;
     height: 343px;

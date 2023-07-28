@@ -1,0 +1,880 @@
+#runnew{
+
+    width: 1240px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+    background-color: #f3f8f9;
+
+}
+.run{
+    direction: rtl;
+    font-family: NarkisBlock;
+    padding-left: 5px;
+    border-left: 1px dotted;
+    margin-left: 13.3px;
+    padding-right: 5px;
+
+
+}
+.prun{
+    font-size: 14px;
+    position: relative;
+    top: 0px;
+    font-size: 15px;
+    color: black;
+    font-weight: 900 ;
+    border-left: 1px dotted;
+    padding-right: 16px;
+   
+}
+#four{
+    border-left: 2px solid;
+}
+.prun:hover{
+    color: rgb(20,23,172);
+}
+#pall{
+    font-size: 14px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    top: 30px;
+    right: 2px ;
+    color: rgb(190, 26, 26);
+    font-weight: 900 ;
+    font-family: NarkisBlock;
+
+}
+#arrow{
+    width: 13px;
+    height: 18.2px;
+    position: relative;
+    top: 5px;
+}
+#runul{
+    display: flex;
+    list-style: none;
+    animation-iteration-count: 2;  
+    animation: run 100s linear 4s infinite;
+}
+#theright{
+    width: 7%;
+    height: 100px;
+    background-color: #fff ;
+    position: absolute;
+    right: 26px;
+    z-index: 1;
+}
+#theleft{
+    width: 7%;
+    height: 100px;
+    background-color: #ffffff ;
+    position: absolute;
+    left: 30px;
+    z-index: 1;
+}
+
+
+
+
+
+#all{
+    position: absolute;
+    width: 188px;
+    height: 100px;
+    z-index: 200;
+    background-color: #f3f8f9;
+}
+#ziro{
+    position: absolute;
+    right: -80.5px ;
+    width: 211.5px;
+    height: 100px;
+    background-color: #f3f8f9;
+    display: inline;
+    animation: ziro 100s linear  infinite;
+}
+@keyframes ziro {
+    0%     {right: -80.5px;}
+    1%     {right: -80.5px;}
+    2%     {right: -80.5px;}
+    3%     {right: -80.5px;}
+    4%     {right: 1188.5px;}
+    5%     {right: 1188.5px;}
+    6%     {right: 1188.5px;}
+    7%     {right: 1188.5px;}
+    8%     {right: 977px;}
+    9%     {right: 977px;}
+    10%    {right: 977px;}
+    11%    {right: 977px;}
+    12%    {right: 765.5px;}
+    13%    {right: 765.5px;}
+    14%    {right: 765.5px;}
+    15%    {right: 765.5px;}
+    16%    {right: 554px;}
+    17%    {right: 554px;}
+    18%    {right: 554px;}
+    19%    {right: 554px;}
+    20%    {right: 342.5px;}
+    21%    {right: 342.5px;}
+    22%    {right: 342.5px;}
+    23%    {right: 342.5px;}
+    24%    {right: 131px;}
+    25%    {right: 131px;}
+    26%    {right: 131px;}
+    27%    {right: 131px;}
+    28%    {right: -80.5px;}
+    29%    {right: -80.5px;}
+    30%    {right: -80.5px;}
+    31%    {right: -80.5px;}
+    32%    {right: 1188.5px;}
+    33%    {right: 1188.5px;}
+    34%    {right: 1188.5px;}
+    35%    {right: 1188.5px;}
+    36%    {right: 977px;}
+    37%    {right: 977px;}
+    38%    {right: 977px;}
+    39%    {right: 977px;}
+    40%    {right: 765.5px;}
+    41%    {right: 765.5px;}
+    42%    {right: 765.5px;}
+    43%    {right: 765.5px;}
+    44%    {right: 554px;}
+    45%    {right: 554px;}
+    46%    {right: 554px;}
+    47%    {right: 554px;}
+    48%    {right: 342.5px;}
+    49%    {right: 342.5px;}
+    50%    {right: 342.5px;}
+    51%    {right: 342.5px;}
+    52%    {right: 131px;}
+    53%    {right: 131px;}
+    54%    {right: 131px;}
+    55%    {right: 131px;}
+    56%    {right: -80.5px;}
+    57%    {right: -80.5px;}
+    58%    {right: -80.5px;}
+    59%    {right: -80.5px;}
+    60%    {right: 1188.5px;}
+    61%    {right: 1188.5px;}
+    62%    {right: 1188.5px;}
+    63%    {right: 1188.5px;}
+    64%    {right: 977px;}
+    65%    {right: 977px;}
+    66%    {right: 977px;}
+    67%    {right: 977px;}
+    68%    {right: 765.5px;}
+    69%    {right: 765.5px;}
+    70%    {right: 765.5px;}
+    71%    {right: 765.5px;}
+    72%    {right: 554px;}
+    73%    {right: 554px;}
+    74%    {right: 554px;}
+    75%    {right: 554px;}
+    76%    {right: 342.5px;}
+    77%    {right: 342.5px;}
+    78%    {right: 342.5px;}
+    79%    {right: 342.5px;}
+    80%    {right: 131px;}
+    81%    {right: 131px;}
+    82%    {right: 131px;}
+    83%    {right: 131px;}
+    84%    {right: -80.5px;}
+    85%    {right: -80.5px;}
+    86%    {right: -80.5px;}
+    87%    {right: -80.5px;}
+    88%    {right: 1188.5px;}
+    89%    {right: 1188.5px;}
+    90%    {right: 1188.5px;}
+    91%    {right: 1188.5px;}
+    92%    {right: 977px;}
+    93%    {right: 977px;}
+    94%    {right: 977px;}
+    95%    {right: 977px;}
+    96%    {right: 765.5px;}
+    97%    {right: 765.5px;}
+    98%    {right: 765.5px;}
+    99%    {right: 765.5px;}
+    100%   {right: 554px;}
+  }
+  
+
+#one{
+    position: absolute;
+    right: 131px ;
+    width: 211.5px;
+    height: 100px;
+    background-color: #f3f8f9;
+    display: inline;
+    animation: one 100s linear  infinite;
+}
+@keyframes one {
+
+        0%    {right: 131px;}
+        1%    {right: 131px;}
+        2%    {right: 131px;}
+        3%    {right: 131px;}
+        4%    {right: -80.5px;}
+        5%    {right: -80.5px;}
+        6%    {right: -80.5px;}
+        7%    {right: -80.5px;}
+        8%    {right: 1188.5px;}
+        9%    {right: 1188.5px;}
+        10%   {right: 1188.5px;}
+        11%   {right: 1188.5px;}
+        12%   {right: 977px;}
+        13%   {right: 977px;}
+        14%   {right: 977px;}
+        15%   {right: 977px;}
+        16%   {right: 765.5px;}
+        17%   {right: 765.5px;}
+        18%   {right: 765.5px;}
+        19%   {right: 765.5px;}
+        20%   {right: 554px;}
+        21%   {right: 554px;}
+        22%   {right: 554px;}
+        23%   {right: 554px;}
+        24%   {right: 342.5px;}
+        25%   {right: 342.5px;}
+        26%   {right: 342.5px;}
+        27%   {right: 342.5px;}
+        28%   {right: 131px;}
+        29%   {right: 131px;}
+        30%   {right: 131px;}
+        31%   {right: 131px;}
+        32%   {right: -80.5px;}
+        33%   {right: -80.5px;}
+        34%   {right: -80.5px;}
+        35%   {right: -80.5px;}
+        36%   {right: 1188.5px;}
+        37%   {right: 1188.5px;}
+        38%   {right: 1188.5px;}
+        39%   {right: 1188.5px;}
+        40%   {right: 977px;}
+        41%   {right: 977px;}
+        42%   {right: 977px;}
+        43%   {right: 977px;}
+        44%   {right: 765.5px;}
+        45%   {right: 765.5px;}
+        46%   {right: 765.5px;}
+        47%   {right: 765.5px;}
+        48%   {right: 554px;}
+        49%   {right: 554px;}
+        50%   {right: 554px;}
+        51%   {right: 554px;}
+        52%   {right: 342.5px;}
+        53%   {right: 342.5px;}
+        54%   {right: 342.5px;}
+        55%   {right: 342.5px;}
+        56%   {right: 131px;}
+        57%   {right: 131px;}
+        58%   {right: 131px;}
+        59%   {right: 131px;}
+        60%   {right: -80.5px;}
+        61%   {right: -80.5px;}
+        62%   {right: -80.5px;}
+        63%   {right: -80.5px;}
+        64%   {right: 1188.5px;}
+        65%   {right: 1188.5px;}
+        66%   {right: 1188.5px;}
+        67%   {right: 1188.5px;}
+        68%   {right: 977px;}
+        69%   {right: 977px;}
+        70%   {right: 977px;}
+        71%   {right: 977px;}
+        72%   {right: 765.5px;}
+        73%   {right: 765.5px;}
+        74%   {right: 765.5px;}
+        75%   {right: 765.5px;}
+        76%   {right: 554px;}
+        77%   {right: 554px;}
+        78%   {right: 554px;}
+        79%   {right: 554px;}
+        80%   {right: 342.5px;}
+        81%   {right: 342.5px;}
+        82%   {right: 342.5px;}
+        83%   {right: 342.5px;}
+        84%   {right: 131px;}
+        85%   {right: 131px;}
+        86%   {right: 131px;}
+        87%   {right: 131px;}
+        88%   {right: -80.5px;}
+        89%   {right: -80.5px;}
+        90%   {right: -80.5px;}
+        91%   {right: -80.5px;}
+        92%   {right: 1188.5px;}
+        93%   {right: 1188.5px;}
+        94%   {right: 1188.5px;}
+        95%   {right: 1188.5px;}
+        96%   {right: 977px;}
+        97%   {right: 977px;}
+        98%   {right: 977px;}
+        99%   {right: 977px;}
+        100%  {right: 765.5px;}
+      }
+      
+#two{
+    position: absolute;
+
+    right: 342.5px ;
+    width: 211.5px;
+    height: 100px;
+    background-color: #f3f8f9;
+    animation: two 100s linear  infinite;
+
+}
+@keyframes two {
+    0%    {right: 343.5px;}
+    1%    {right: 343.5px;}
+    2%    {right: 343.5px;}
+    3%    {right: 343.5px;}
+    4%    {right: 131px;}
+    5%    {right: 131px;}
+    6%    {right: 131px;}
+    7%    {right: 131px;}
+    8%    {right: -80.5px;}
+    9%    {right: -80.5px;}
+    10%   {right: -80.5px;}
+    11%   {right: -80.5px;}
+    12%   {right: 1188.5px;}
+    13%   {right: 1188.5px;}
+    14%   {right: 1188.5px;}
+    15%   {right: 1188.5px;}
+    16%   {right: 977px;}
+    17%   {right: 977px;}
+    18%   {right: 977px;}
+    19%   {right: 977px;}
+    20%   {right: 765.5px;}
+    21%   {right: 765.5px;}
+    22%   {right: 765.5px;}
+    23%   {right: 765.5px;}
+    24%   {right: 554px;}
+    25%   {right: 554px;}
+    26%   {right: 554px;}
+    27%   {right: 554px;}
+    28%   {right: 342.5px;}
+    29%   {right: 342.5px;}
+    30%   {right: 342.5px;}
+    31%   {right: 342.5px;}
+    32%   {right: 131px;}
+    33%   {right: 131px;}
+    34%   {right: 131px;}
+    35%   {right: 131px;}
+    36%   {right: -80.5px;}
+    37%   {right: -80.5px;}
+    38%   {right: -80.5px;}
+    39%   {right: -80.5px;}
+    40%   {right: 1188.5px;}
+    41%   {right: 1188.5px;}
+    42%   {right: 1188.5px;}
+    43%   {right: 1188.5px;}
+    44%   {right: 977px;}
+    45%   {right: 977px;}
+    46%   {right: 977px;}
+    47%   {right: 977px;}
+    48%   {right: 765.5px;}
+    49%   {right: 765.5px;}
+    50%   {right: 765.5px;}
+    51%   {right: 765.5px;}
+    52%   {right: 554px;}
+    53%   {right: 554px;}
+    54%   {right: 554px;}
+    55%   {right: 554px;}
+    56%   {right: 342.5px;}
+    57%   {right: 342.5px;}
+    58%   {right: 342.5px;}
+    59%   {right: 342.5px;}
+    60%   {right: 131px;}
+    61%   {right: 131px;}
+    62%   {right: 131px;}
+    63%   {right: 131px;}
+    64%   {right: -80.5px;}
+    65%   {right: -80.5px;}
+    66%   {right: -80.5px;}
+    67%   {right: -80.5px;}
+    68%   {right: 1188.5px;}
+    69%   {right: 1188.5px;}
+    70%   {right: 1188.5px;}
+    71%   {right: 1188.5px;}
+    72%   {right: 977px;}
+    73%   {right: 977px;}
+    74%   {right: 977px;}
+    75%   {right: 977px;}
+    76%   {right: 765.5px;}
+    77%   {right: 765.5px;}
+    78%   {right: 765.5px;}
+    79%   {right: 765.5px;}
+    80%   {right: 554px;}
+    81%   {right: 554px;}
+    82%   {right: 554px;}
+    83%   {right: 554px;}
+    84%   {right: 342.5px;}
+    85%   {right: 342.5px;}
+    86%   {right: 342.5px;}
+    87%   {right: 342.5px;}
+    88%   {right: 131px;}
+    89%   {right: 131px;}
+    90%   {right: 131px;}
+    91%   {right: 131px;}
+    92%   {right: -80.5px;}
+    93%   {right: -80.5px;}
+    94%   {right: -80.5px;}
+    95%   {right: -80.5px;}
+    96%   {right: 1188.5px;}
+    97%   {right: 1188.5px;}
+    98%   {right: 1188.5px;}
+    99%   {right: 1188.5px;}
+    100%  {right: 977px;}
+  }
+ #three{
+    position: absolute;
+    right: 554px ;
+    width: 211.5px;
+    height: 100px;
+    background-color: #f3f8f9;
+    animation: three 100s linear  infinite;
+}
+@keyframes three {
+    0%     {right: 554px;}
+    1%     {right: 554px;}
+    2%     {right: 554px;}
+    3%     {right: 554px;}
+    4%     {right: 342.5px;}
+    5%     {right: 342.5px;}
+    6%     {right: 342.5px;}
+    7%     {right: 342.5px;}
+    8%     {right: 131px;}
+    9%     {right: 131px;}
+    10%    {right: 131px;}
+    11%    {right: 131px;}
+    12%    {right: -80.5px;}
+    13%    {right: -80.5px;}
+    14%    {right: -80.5px;}
+    15%    {right: -80.5px;}
+    16%    {right: 1188.5px;}
+    17%    {right: 1188.5px;}
+    18%    {right: 1188.5px;}
+    19%    {right: 1188.5px;}
+    20%    {right: 977px;}
+    21%    {right: 977px;}
+    22%    {right: 977px;}
+    23%    {right: 977px;}
+    24%    {right: 765.5px;}
+    25%    {right: 765.5px;}
+    26%    {right: 765.5px;}
+    27%    {right: 765.5px;}
+    28%    {right: 554px;}
+    29%    {right: 554px;}
+    30%    {right: 554px;}
+    31%    {right: 554px;}
+    32%    {right: 342.5px;}
+    33%    {right: 342.5px;}
+    34%    {right: 342.5px;}
+    35%    {right: 342.5px;}
+    36%    {right: 131px;}
+    37%    {right: 131px;}
+    38%    {right: 131px;}
+    39%    {right: 131px;}
+    40%    {right: -80.5px;}
+    41%    {right: -80.5px;}
+    42%    {right: -80.5px;}
+    43%    {right: -80.5px;}
+    44%    {right: 1188.5px;}
+    45%    {right: 1188.5px;}
+    46%    {right: 1188.5px;}
+    47%    {right: 1188.5px;}
+    48%    {right: 977px;}
+    49%    {right: 977px;}
+    50%    {right: 977px;}
+    51%    {right: 977px;}
+    52%    {right: 765.5px;}
+    53%    {right: 765.5px;}
+    54%    {right: 765.5px;}
+    55%    {right: 765.5px;}
+    56%    {right: 554px;}
+    57%    {right: 554px;}
+    58%    {right: 554px;}
+    59%    {right: 554px;}
+    60%    {right: 342.5px;}
+    61%    {right: 342.5px;}
+    62%    {right: 342.5px;}
+    63%    {right: 342.5px;}
+    64%    {right: 131px;}
+    65%    {right: 131px;}
+    66%    {right: 131px;}
+    67%    {right: 131px;}
+    68%    {right: -80.5px;}
+    69%    {right: -80.5px;}
+    70%    {right: -80.5px;}
+    71%    {right: -80.5px;}
+    72%    {right: 1188.5px;}
+    73%    {right: 1188.5px;}
+    74%    {right: 1188.5px;}
+    75%    {right: 1188.5px;}
+    76%    {right: 977px;}
+    77%    {right: 977px;}
+    78%    {right: 977px;}
+    79%    {right: 977px;}
+    80%    {right: 765.5px;}
+    81%    {right: 765.5px;}
+    82%    {right: 765.5px;}
+    83%    {right: 765.5px;}
+    84%    {right: 554px;}
+    85%    {right: 554px;}
+    86%    {right: 554px;}
+    87%    {right: 554px;}
+    88%    {right: 342.5px;}
+    89%    {right: 342.5px;}
+    90%    {right: 342.5px;}
+    91%    {right: 342.5px;}
+    92%    {right: 131px;}
+    93%    {right: 131px;}
+    94%    {right: 131px;}
+    95%    {right: 131px;}
+    96%    {right: -80.5px;}
+    97%    {right: -80.5px;}
+    98%    {right: -80.5px;}
+    99%    {right: -80.5px;}
+    100%   {right: 1188.5px;}
+  }
+
+#four{
+    position: absolute;
+    right: 765.5px ;
+    width: 211.5px;
+    height: 100px;
+    background-color: #f3f8f9;
+    animation: four 100s linear  infinite;
+
+}
+@keyframes four {
+    0%     {right: 765.5px;}
+    1%     {right: 765.5px;}
+    2%     {right: 765.5px;}
+    3%     {right: 765.5px;}
+    4%     {right: 554px;}
+    5%     {right: 554px;}
+    6%     {right: 554px;}
+    7%     {right: 554px;}
+    8%     {right: 342.5px;}
+    9%     {right: 342.5px;}
+    10%    {right: 342.5px;}
+    11%    {right: 342.5px;}
+    12%    {right: 131px;}
+    13%    {right: 131px;}
+    14%    {right: 131px;}
+    15%    {right: 131px;}
+    16%    {right: -80.5px;}
+    17%    {right: -80.5px;}
+    18%    {right: -80.5px;}
+    19%    {right: -80.5px;}
+    20%    {right: 1188.5px;}
+    21%    {right: 1188.5px;}
+    22%    {right: 1188.5px;}
+    23%    {right: 1188.5px;}
+    24%    {right: 977px;}
+    25%    {right: 977px;}
+    26%    {right: 977px;}
+    27%    {right: 977px;}
+    28%    {right: 765.5px;}
+    29%    {right: 765.5px;}
+    30%    {right: 765.5px;}
+    31%    {right: 765.5px;}
+    32%    {right: 554px;}
+    33%    {right: 554px;}
+    34%    {right: 554px;}
+    35%    {right: 554px;}
+    36%    {right: 342.5px;}
+    37%    {right: 342.5px;}
+    38%    {right: 342.5px;}
+    39%    {right: 342.5px;}
+    40%    {right: 131px;}
+    41%    {right: 131px;}
+    42%    {right: 131px;}
+    43%    {right: 131px;}
+    44%    {right: -80.5px;}
+    45%    {right: -80.5px;}
+    46%    {right: -80.5px;}
+    47%    {right: -80.5px;}
+    48%    {right: 1188.5px;}
+    49%    {right: 1188.5px;}
+    50%    {right: 1188.5px;}
+    51%    {right: 1188.5px;}
+    52%    {right: 977px;}
+    53%    {right: 977px;}
+    54%    {right: 977px;}
+    55%    {right: 977px;}
+    56%    {right: 765.5px;}
+    57%    {right: 765.5px;}
+    58%    {right: 765.5px;}
+    59%    {right: 765.5px;}
+    60%    {right: 554px;}
+    61%    {right: 554px;}
+    62%    {right: 554px;}
+    63%    {right: 554px;}
+    64%    {right: 342.5px;}
+    65%    {right: 342.5px;}
+    66%    {right: 342.5px;}
+    67%    {right: 342.5px;}
+    68%    {right: 131px;}
+    69%    {right: 131px;}
+    70%    {right: 131px;}
+    71%    {right: 131px;}
+    72%    {right: -80.5px;}
+    73%    {right: -80.5px;}
+    74%    {right: -80.5px;}
+    75%    {right: -80.5px;}
+    76%    {right: 1188.5px;}
+    77%    {right: 1188.5px;}
+    78%    {right: 1188.5px;}
+    79%    {right: 1188.5px;}
+    80%    {right: 977px;}
+    81%    {right: 977px;}
+    82%    {right: 977px;}
+    83%    {right: 977px;}
+    84%    {right: 765.5px;}
+    85%    {right: 765.5px;}
+    86%    {right: 765.5px;}
+    87%    {right: 765.5px;}
+    88%    {right: 554px;}
+    89%    {right: 554px;}
+    90%    {right: 554px;}
+    91%    {right: 554px;}
+    92%    {right: 342.5px;}
+    93%    {right: 342.5px;}
+    94%    {right: 342.5px;}
+    95%    {right: 342.5px;}
+    96%    {right: 131px;}
+    97%    {right: 131px;}
+    98%    {right: 131px;}
+    99%    {right: 131px;}
+    100%   {right: -80.5px;}
+  }
+  
+#five{
+    position: absolute;
+    right: 977px ;
+    width: 211.5px;
+    height: 100px;
+    background-color: #f3f8f9;
+    animation: five 100s linear  infinite;
+
+}
+@keyframes five {
+    0%     {right: 977px;}
+    1%     {right: 977px;}
+    2%     {right: 977px;}
+    3%     {right: 977px;}
+    4%     {right: 765.5px;}
+    5%     {right: 765.5px;}
+    6%     {right: 765.5px;}
+    7%     {right: 765.5px;}
+    8%     {right: 554px;}
+    9%     {right: 554px;}
+    10%    {right: 554px;}
+    11%    {right: 554px;}
+    12%    {right: 342.5px;}
+    13%    {right: 342.5px;}
+    14%    {right: 342.5px;}
+    15%    {right: 342.5px;}
+    16%    {right: 131px;}
+    17%    {right: 131px;}
+    18%    {right: 131px;}
+    19%    {right: 131px;}
+    20%    {right: -80.5px;}
+    21%    {right: -80.5px;}
+    22%    {right: -80.5px;}
+    23%    {right: -80.5px;}
+    24%    {right: 1188.5px;}
+    25%    {right: 1188.5px;}
+    26%    {right: 1188.5px;}
+    27%    {right: 1188.5px;}
+    28%    {right: 977px;}
+    29%    {right: 977px;}
+    30%    {right: 977px;}
+    31%    {right: 977px;}
+    32%    {right: 765.5px;}
+    33%    {right: 765.5px;}
+    34%    {right: 765.5px;}
+    35%    {right: 765.5px;}
+    36%    {right: 554px;}
+    37%    {right: 554px;}
+    38%    {right: 554px;}
+    39%    {right: 554px;}
+    40%    {right: 342.5px;}
+    41%    {right: 342.5px;}
+    42%    {right: 342.5px;}
+    43%    {right: 342.5px;}
+    44%    {right: 131px;}
+    45%    {right: 131px;}
+    46%    {right: 131px;}
+    47%    {right: 131px;}
+    48%    {right: -80.5px;}
+    49%    {right: -80.5px;}
+    50%    {right: -80.5px;}
+    51%    {right: -80.5px;}
+    52%    {right: 1188.5px;}
+    53%    {right: 1188.5px;}
+    54%    {right: 1188.5px;}
+    55%    {right: 1188.5px;}
+    56%    {right: 977px;}
+    57%    {right: 977px;}
+    58%    {right: 977px;}
+    59%    {right: 977px;}
+    60%    {right: 765.5px;}
+    61%    {right: 765.5px;}
+    62%    {right: 765.5px;}
+    63%    {right: 765.5px;}
+    64%    {right: 554px;}
+    65%    {right: 554px;}
+    66%    {right: 554px;}
+    67%    {right: 554px;}
+    68%    {right: 342.5px;}
+    69%    {right: 342.5px;}
+    70%    {right: 342.5px;}
+    71%    {right: 342.5px;}
+    72%    {right: 131px;}
+    73%    {right: 131px;}
+    74%    {right: 131px;}
+    75%    {right: 131px;}
+    76%    {right: -80.5px;}
+    77%    {right: -80.5px;}
+    78%    {right: -80.5px;}
+    79%    {right: -80.5px;}
+    80%    {right: 1188.5px;}
+    81%    {right: 1188.5px;}
+    82%    {right: 1188.5px;}
+    83%    {right: 1188.5px;}
+    84%    {right: 977px;}
+    85%    {right: 977px;}
+    86%    {right: 977px;}
+    87%    {right: 977px;}
+    88%    {right: 765.5px;}
+    89%    {right: 765.5px;}
+    90%    {right: 765.5px;}
+    91%    {right: 765.5px;}
+    92%    {right: 554px;}
+    93%    {right: 554px;}
+    94%    {right: 554px;}
+    95%    {right: 554px;}
+    96%    {right: 342.5px;}
+    97%    {right: 342.5px;}
+    98%    {right: 342.5px;}
+    99%    {right: 342.5px;}
+    100%   {right: 131px;}
+  }
+  #six{
+    position: absolute;
+    right: 1188.5px ;
+    width: 211.5px;
+    height: 100px;
+    background-color: #f3f8f9;
+    animation: six 100s linear  infinite;
+  }
+  @keyframes six {
+    0%     {right: 1188.5px;}
+    1%     {right: 1188.5px;}
+    2%     {right: 1188.5px;}
+    3%     {right: 1188.5px;}
+    4%     {right: 977px;}
+    5%     {right: 977px;}
+    6%     {right: 977px;}
+    7%     {right: 977px;}
+    8%     {right: 765.5px;}
+    9%     {right: 765.5px;}
+    10%    {right: 765.5px;}
+    11%    {right: 765.5px;}
+    12%    {right: 554px;}
+    13%    {right: 554px;}
+    14%    {right: 554px;}
+    15%    {right: 554px;}
+    16%    {right: 342.5px;}
+    17%    {right: 342.5px;}
+    18%    {right: 342.5px;}
+    19%    {right: 342.5px;}
+    20%    {right: 131px;}
+    21%    {right: 131px;}
+    22%    {right: 131px;}
+    23%    {right: 131px;}
+    24%    {right: -80.5px;}
+    25%    {right: -80.5px;}
+    26%    {right: -80.5px;}
+    27%    {right: -80.5px;}
+    28%    {right: 1188.5px;}
+    29%    {right: 1188.5px;}
+    30%    {right: 1188.5px;}
+    31%    {right: 1188.5px;}
+    32%    {right: 977px;}
+    33%    {right: 977px;}
+    34%    {right: 977px;}
+    35%    {right: 977px;}
+    36%    {right: 765.5px;}
+    37%    {right: 765.5px;}
+    38%    {right: 765.5px;}
+    39%    {right: 765.5px;}
+    40%    {right: 554px;}
+    41%    {right: 554px;}
+    42%    {right: 554px;}
+    43%    {right: 554px;}
+    44%    {right: 342.5px;}
+    45%    {right: 342.5px;}
+    46%    {right: 342.5px;}
+    47%    {right: 342.5px;}
+    48%    {right: 131px;}
+    49%    {right: 131px;}
+    50%    {right: 131px;}
+    51%    {right: 131px;}
+    52%    {right: -80.5px;}
+    53%    {right: -80.5px;}
+    54%    {right: -80.5px;}
+    55%    {right: -80.5px;}
+    56%    {right: 1188.5px;}
+    57%    {right: 1188.5px;}
+    58%    {right: 1188.5px;}
+    59%    {right: 1188.5px;}
+    60%    {right: 977px;}
+    61%    {right: 977px;}
+    62%    {right: 977px;}
+    63%    {right: 977px;}
+    64%    {right: 765.5px;}
+    65%    {right: 765.5px;}
+    66%    {right: 765.5px;}
+    67%    {right: 765.5px;}
+    68%    {right: 554px;}
+    69%    {right: 554px;}
+    70%    {right: 554px;}
+    71%    {right: 554px;}
+    72%    {right: 342.5px;}
+    73%    {right: 342.5px;}
+    74%    {right: 342.5px;}
+    75%    {right: 342.5px;}
+    76%    {right: 131px;}
+    77%    {right: 131px;}
+    78%    {right: 131px;}
+    79%    {right: 131px;}
+    80%    {right: -80.5px;}
+    81%    {right: -80.5px;}
+    82%    {right: -80.5px;}
+    83%    {right: -80.5px;}
+    84%    {right: 1188.5px;}
+    85%    {right: 1188.5px;}
+    86%    {right: 1188.5px;}
+    87%    {right: 1188.5px;}
+    88%    {right: 977px;}
+    89%    {right: 977px;}
+    90%    {right: 977px;}
+    91%    {right: 977px;}
+    92%    {right: 765.5px;}
+    93%    {right: 765.5px;}
+    94%    {right: 765.5px;}
+    95%    {right: 765.5px;}
+    96%    {right: 554px;}
+    97%    {right: 554px;}
+    98%    {right: 554px;}
+    99%    {right: 554px;}
+    100%   {right: 342.5px;}
+  }
+  
