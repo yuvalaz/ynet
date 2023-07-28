@@ -64,6 +64,7 @@
     position: relative;
     right: 8px;
     top: 3px;
+    z-index: 200;
 }
 #leftbanner{
     position: fixed;

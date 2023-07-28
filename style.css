@@ -79,7 +79,22 @@ body{
     position: relative;
     top: 3px;
 }
-
+#sun{
+    position: absolute;
+    right: 310px;
+    top: 80px;
+    font-size: 13px;
+    font-family: NarkisBlock;
+}
+#sunicon{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+}
+#smallarrow{
+    width: 11px;
+}
 
 
 #logo{
