@@ -75,7 +75,24 @@ body{
 }
 .header{
     color: #fff;
-    padding: auto;
+    padding-left: 8px;
+    position: relative;
+    top: 4px;
+    left: 1px;
+    font-size: 15px;
+    align-items: center;
+    font-family: NarkisBlock;
+}
+.header:hover{
+    font-weight: bolder;
+    padding-right: 0.3px;
+    padding-left: 8.3px;
+
+}
+#main{
+    font-weight: bolder;
+    
+
 }
 #runnew{
     background-color: #f3f8f9;
