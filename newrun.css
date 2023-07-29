@@ -63,17 +63,17 @@
 #theright{
     width: 7%;
     height: 100px;
-    background-color: #fff ;
+    background-color: #ffffff ;
     position: absolute;
-    right: 26px;
+    right: 33px;
     z-index: 1;
 }
 #theleft{
-    width: 7%;
+    width: 3%;
     height: 100px;
     background-color: #ffffff ;
     position: absolute;
-    left: 30px;
+    left: 100px;
     z-index: 1;
 }
 
@@ -318,7 +318,6 @@
       
 #two{
     position: absolute;
-
     right: 342.5px ;
     width: 211.5px;
     height: 100px;
