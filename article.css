@@ -65,22 +65,94 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 21px;
-    border: 1px solid;
+
 }
 #bidendiv{
     width: 610px;
     height: 113px;
     display: block;
     margin-right: auto;
-    border: 1px solid;
+    background-color: #de1a1a;
 }
+#nasrala{
+    width: 200px;
+    height: 113px;
+    display: block;
+    margin-left: auto;
+    position: relative;
+    bottom: 42px ;
+}
+#h1nasrala{
+    color: #fff;
+    font-size: 19px;
+    position: relative;
+    top: 11px;
+    right: 210px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+
+}
+#pnasrala{
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    right: 210px;
+    bottom: 132px;
+
+}
+#spannasrala{
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    right: 210px;
+    bottom: 138px;
+
+}
+
+
+
 #choendiv{
     width: 610px;
     height: 113px;
     display: block;
     margin-right: auto;
     margin-top: 15px;
-    border: 1px solid;
+ 
+    background-color: rgb(20, 23, 172);
+}
+#care{
+    width: 200px;
+    height: 113px;
+    display: block;
+    margin-left: auto;
+    position: relative;
+    bottom: 42px ;
+}
+#h1care{
+    color: #fff;
+    font-size: 19px;
+    position: relative;
+    top: 11px;
+    right: 210px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+
+}
+#pcare{
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    right: 210px;
+    bottom: 132px;
+
+}
+#spancare{
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    right: 210px;
+    bottom: 138px;
+
 }
 #vacationdiv{
     width: 610px;
@@ -88,7 +160,41 @@
     display: block;
     margin-right: auto;
     margin-top: 15px;
-    border: 1px solid;
+    background-color: #de1a1a;
+
+}
+#train{
+    width: 200px;
+    height: 113px;
+    display: block;
+    margin-left: auto;
+    position: relative;
+    bottom: 42px ;
+}
+#h1train{
+    color: #fff;
+    font-size: 19px;
+    position: relative;
+    top: 11px;
+    right: 210px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+
+}
+#ptrain{
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    right: 210px;
+    bottom: 132px;
+
+}
+#spantrain{
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    right: 210px;
+    bottom: 138px;
 
 }
 #theworddiv{
@@ -97,20 +203,101 @@
     display: block;
     margin-right: auto;
     margin-top: 15px;
-    border: 1px solid;
+    background-color: rgb(12,28,58);
+}
+#couple{
+    width: 200px;
+    height: 113px;
+    display: block;
+    margin-left: auto;
+    position: relative;
+    bottom: 42px ;
+}
+#sizee{
+    display: none;
+    margin-left: auto;
+    position: relative;
+    bottom: 243px ;
+}
+#ee{
+    display: block;
+    margin-left: auto;
+    position: relative;
+    bottom: 380px ;
+    z-index: 30;
+
+}
+#e{
+    size: 50px;
+    margin-left: auto;
+    position: relative;
+    bottom: -200px ;
+    z-index: 30;
+    color: #de1a1a;
+}
+
+#e:hover + #sizee{
+    
+    display: block;
+}  
+#ediv{
+    background-color: #1f1f1f;
+    width: 610px;
+    height: 50px;
+    opacity: 0.4;
+    display: block ;
+    
+
+}
+#pe{
+    font-size: 15px;
+    color: #ffffff;
+    opacity: ;
+    position: relative;
+    bottom: 55px ;
+    right: 35px;
+}
+
+
+
+#h1couple{
+    color: #fff;
+    font-size: 19px;
+    position: relative;
+    top: 11px;
+    right: 210px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+
+}
+#pcouple{
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    right: 210px;
+    bottom: 133px;
+
+}
+#spancouple{
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    right: 210px;
+    bottom: 140px;
 }
 #bigadddiv{
     width: 300px;
     height: 517px;
     display: block;
     margin-left: auto;
-    margin-top: -503px;
+
+    margin-top: -509px;
 
 
 }
 #alm{
     width: 300px;
-    height: 497px;
+    height: 510px;
 
 }
 #yad2div{
@@ -118,20 +305,20 @@
     height: 245px;
     display: block;
     margin-left: 627px;
-    margin-top: -519px;
+    margin-top: -517px;
 
     
 }
 #yad2{
     width: 300px;
-    height: 244px;
+    height: 250px;
 }
 #studydiv{
     width: 300px;
     height: 245px;
     display: block;
     margin-left: 627px;
-    margin-top: 10px;
+    margin-top: 20px;
     
     box-shadow: 0px 0.1px 0.5px;
     
