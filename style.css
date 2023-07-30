@@ -181,6 +181,12 @@ body{
     padding-left: 8.3px;
 
 }
+.headersticky:hover{
+    font-weight: bolder;
+    padding-right: 0.3px;
+    padding-left: 6.3px;
+
+}
 #main{
     font-weight: bolder;
     
