@@ -43,7 +43,6 @@ span{
 
 body{
     overflow-x: hidden;
-    height: 150vh;
     z-index: 20;
 
 }
@@ -111,21 +110,69 @@ body{
     background-color: #de1a1a;
     font-family: NarkisB;
     width: 1240px;
-    height: 28px;
+    height: 38px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 21px;
+    position: sticky;
+    padding-right: ;
+    top: 0;
+    z-index: 800;
 
+}
+#thecoverdiv{
+    background-color: #ffffff;
+    width: 1240px;
+    height: 11px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 140px;
+    top: 281px;
+    z-index: 801;
+}
+#redstickydiv{
+    background-color: #de1a1a;
+    font-family: NarkisB;
+    width: 1240px;
+    height: 28px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -28px;
+    position: absolute;
+    right: auto;
+    left: 140px;
+    z-index: 805;
+
+}
+#whiteynet{
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    left: 45px;
+    bottom: 0px;
 }
 .header{
     color: #fff;
-    padding-left: 8px;
     position: relative;
+    align: center;
+    padding-left:8.59px;
     top: 4px;
     left: 1px;
     font-size: 15px;
-    align-items: center;
+    font-family: NarkisBlock;
+}
+.headersticky{
+    color: #fff;
+    position: relative;
+    align: center;
+    padding-left: 6px;
+    top: 9px;
+    left: 1px;
+    font-size: 15px;
     font-family: NarkisBlock;
 }
 .header:hover{
