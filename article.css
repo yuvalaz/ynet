@@ -360,5 +360,25 @@
     display: block;
     margin-right: auto;
     position: relative;
-    bottom: 30px;
+    bottom: 50px;
+}
+#prightblue{
+    position: relative;
+    top: 5px;
+    color: #fff;
+    right: 15px;
+    font-size: 17px;
+    font-weight: 900;
+
+
+}
+#pleftblue{
+    position: relative;
+    top: 5px;
+    color: #fff;
+    right: 15px;
+    font-size: 17px;
+    font-weight: 900;
+
+
 }
