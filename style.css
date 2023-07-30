@@ -1,17 +1,8 @@
-
-  @font-face {
-    font-family: NarkisBlock;
-    src: url(Narkis Block MF Regular A.ttf);
-}
-  p{
-    font-family: NarkisBlock;
-}
-
 @font-face {
     font-family: 'NarkisBlock';
     src: url(Narkiss\ Block\ Regular.ttf);
     font-weight: 500;
-  font-style: normal;
+    font-style: normal;
 }
 @font-face {
     font-family: 'NarkisB';
@@ -19,15 +10,11 @@
     font-weight: 1;
     font-style: normal;
 }
-p{
+p,h1{
     font-family: NarkisBlock;
-    font-weight: ;
+
 }
-h1{
-    font-family: NarkisBlock;
-    font-weight: ;
-    
-}
+
 span{
     color:#fff;
     font-size: 15px;
@@ -36,11 +23,6 @@ span{
     align-items: center;
 
 }
-
-
-
-
-
 body{
     overflow-x: hidden;
     z-index: 20;
@@ -157,8 +139,10 @@ body{
     padding-right: ;
     top: 0;
     z-index: 800;
+    
 
 }
+
 #thecoverdiv{
     background-color: #ffffff;
     width: 1240px;
@@ -190,26 +174,28 @@ body{
     width: 23px;
     height: 23px;
     position: absolute;
-    left: 45px;
-    bottom: 0px;
+    left: 1200px;
+    bottom: 8px;
+  
+    
 }
 .header{
     color: #fff;
     position: relative;
-    align: center;
-    padding-left:8.59px;
+    text-align: center;
+    padding-left: 10px;
     top: 4px;
-    left: 1px;
+    right: 5px;
     font-size: 15px;
     font-family: NarkisBlock;
 }
 .headersticky{
     color: #fff;
     position: relative;
-    align: center;
+    text-align: center;
     padding-left: 6px;
-    top: 9px;
-    left: 1px;
+    top: 7px;
+    right: 5px;
     font-size: 15px;
     font-family: NarkisBlock;
 }
@@ -241,7 +227,26 @@ body{
     margin-top: 21px;
 }
 
+#morepic{
+    width: 45px;
+    height: 18px;
+    position: relative;
+    right: 1130px;
+    top: 4px;
+    
 
+}
+#morepicc{
+    width: 45px;
+    height: 18px;
+    position: relative;
+    left: 91px;
+    bottom: 11px;
+}
+    
+#moree{
+    z-index: 2;
+}
 
 h1{
     direction: rtl;
