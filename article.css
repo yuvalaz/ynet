@@ -339,11 +339,13 @@
 #theblues{
     width: 1240px;
     height: 30px;
-    display: block;
+    display: flex;
+    justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
-    border: 1px solid;
+
+    
 
     
 }
@@ -351,36 +353,50 @@
     width: 610px;
     height: 30px;
     background-color: #1417ac;
-    display: block;
-    margin-left: auto;
+
 
 }
 #leftblue{
     width: 610px;
     height: 30px;
     background-color: #1417ac;
-    display: block;
-    margin-right: auto;
-    position: relative;
-    bottom: 50px;
+
+
 }
 #prightblue{
     position: absolute;
-    bottom: 1000px;
+    padding-top: 4px;
     color: #fff;
-    right: 150px;
     font-size: 17px;
     font-weight: 900;
 
 
 }
-#pleftblue{
+#divtextright{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left: 609px;
+
+}
+#divtextleft{
+    width: 80.4px;
+    height: 30px;
+    position: absolute;
+    right: 180px;
+}
+#pleftblue, #prightblue{
     position: relative;
-    top: 5px;
-    color: #fff;
-    right: 15px;
+
+    text-align: right;
+    color: #ffffff;
     font-size: 17px;
     font-weight: 900;
-
-
+    top: 0%;
+    transform: translateY(-50%)
+    
+}
+#prightblue{
+    color: #ffffff;
+    padding-bottom: 5px;
 }
